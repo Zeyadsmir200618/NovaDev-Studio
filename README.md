@@ -18,11 +18,11 @@ Backend/Content: Sanity.io (GROQ Query Language)
 AI Engine: Google Gemini API Integration
 
 🛠️ Getting Started
-1. Clone the Repository
+1. Clone the Repository:
 Bash
 git clone https://github.com/YOUR_USERNAME/novadev-studio.git
 cd novadev-studio
-2. Install Dependencies & Run Frontend
+2. Install Dependencies & Run Frontend:
 Bash
 npm install
 npm run dev
