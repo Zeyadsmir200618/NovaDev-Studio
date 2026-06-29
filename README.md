@@ -27,7 +27,6 @@ Bash
 npm install
 npm run dev
 3. Run Content Management System (CMS)
-Bash
 cd novadev-cms
 npm install
 npm run dev
