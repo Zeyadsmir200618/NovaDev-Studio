@@ -26,7 +26,7 @@ cd novadev-studio
 Bash
 npm install
 npm run dev
-3. Run Content Management System (CMS)
+3. Run Content Management System (CMS):
 cd novadev-cms
 npm install
 npm run dev
