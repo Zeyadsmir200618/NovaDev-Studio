@@ -1,32 +1,16 @@
-# NovaDev-Studio
-Welcome to the official repository for NovaDev Studio, a premium, high-performance digital agency portfolio website. This platform showcases our digital craft, custom applications, and software solutions with fluid animations and dynamic data management.
+# React + Vite
 
-🚀 Features
-Dynamic Headless CMS: Integrated seamlessly with Sanity.io to manage, update, and publish project items in real-time without touching frontend code.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Intelligent AI Assistant: A custom-built chatbot helper that remembers conversation context and provides real-time agency interaction across page switches.
+Currently, two official plugins are available:
 
-Fluid UI Transitions: Fully responsive design built with Tailwind CSS and cinematic scroll-reveal animations using Framer Motion.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Modern Architecture: Built on top of React and bundled via Vite for lightning-fast edge performance.
+## React Compiler
 
-🛠️ Tech Stack
-Frontend: React, Vite, Tailwind CSS, Framer Motion, Lucide Icons
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Backend/Content: Sanity.io (GROQ Query Language)
+## Expanding the ESLint configuration
 
-AI Engine: Google Gemini API Integration
-
-🛠️ Getting Started
-1. Clone the Repository:
-Bash
-git clone https://github.com/YOUR_USERNAME/novadev-studio.git
-cd novadev-studio
-2. Install Dependencies & Run Frontend:
-Bash
-npm install
-npm run dev
-3. Run Content Management System (CMS):
-cd novadev-cms
-npm install
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
